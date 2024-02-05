@@ -68,7 +68,7 @@
                             break;
                         case 5:
                             Console.WriteLine("String Day: Friday");
-                                ; break;
+                            ; break;
                         case 6:
                             Console.WriteLine("String Day: Saturday");
                             break;
@@ -78,14 +78,18 @@
                         default:
                             Console.WriteLine("Invalid Day!");
                             break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid response, please enter an Integer");
 
-
+                        
                     }
                 }
 
             }
-
-        }
     }
 }
+
             
